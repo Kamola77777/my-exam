@@ -1,0 +1,369 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+{
+    background-color: white;
+}
+#search {
+    width: 300px;
+    height: 60px;
+}
+body{
+    background-color: rgb(224, 239, 245);
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   text-align: center;
+    margin: auto;
+}
+
+.logo-item{
+  
+}
+
+nav {
+    border:1px solid white;
+    background-color: white;
+}
+nav li {
+    padding: 20px;
+}
+.container1{
+    border:1px solid white;
+    height: 360px;
+    width: 850px;
+    margin: 40px 100px;
+    background-color:white;
+}
+.top-pic{
+    width: 850px;
+    height: 180px;
+    background: url(./asset/Rectangle\ 3.png);
+    background-repeat: no-repeat; */
+    display: flex;
+    flex-direction: row;
+}
+.items{
+    padding: 30px;
+}
+.flex-text {
+    width: 583px;
+    height: 42px ;
+    padding: 10px;
+}
+.flex-both {
+    display: flex;
+    
+}
+.button{
+    width: 170px;
+    height: 32px;
+    color: rgb(16, 110, 197);
+    border-color: rgb(16, 110, 197);
+    background-color: white;
+    border-radius: 4px;
+}
+.button:hover {
+    background-color: rgb(16, 110, 197);
+    color: white;
+    border-color: white;
+}
+.button-active {
+    width: 170px;
+    height: 32px;
+    padding-right: 25px;
+    background-color: rgb(16, 110, 197);
+    border-color: rgb(16, 110, 197);
+    color: white;
+    border-radius: 4px;
+    
+}
+.button3 {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 100px;
+}
+.btn{
+    width: 240px;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 4px 4px 0 0;
+    background-color: white;
+    border-color: white;
+}
+.btn:hover {
+    background-color: rgb(16, 110, 197);
+    color: white; 
+    transform: scale(1.2);
+    border-radius: 4px 4px 0 0;
+}
+.btn-active {
+    width: 240px;
+    height: 40px;
+    border-radius: 4px 4px 0 0;
+    background-color:rgb(16, 110, 197) ;
+    color: white;
+    font-size: 17px;
+    border-color: white;
+}
+ .btn-active:hover {
+    background-color: rgb(16, 110, 197);
+    transform: scale(1.2);
+    color: white;
+    width: 240px;
+    height: 40px;
+    border-radius: 4px 4px 0 0; 
+}
+/* .about {
+    position: absolute;
+width: 790px;
+height: 42px;
+left: calc(50% - 790px/2 - 165px);
+top: 643px;
+
+font-family: Gotham Pro;
+font-size: 14px;
+line-height: 150%;
+or 21px
+
+color: #181818;
+} */
+.title{
+    border: 1px solid white;
+    width: 850px;
+    height: 170px;
+    padding: 15px;
+    font-size: 17px;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+}
+.title a{
+    color:blue;
+    text-decoration: none;
+    line-height: 11.48px;
+    font-size: 12px;
+}
+
+.about{
+    margin: 30px 100px;
+    background-color: white;
+    width: 850px;
+    
+    
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+   
+}
+.cardsss{
+    width: 850px;
+    height: 380px;
+    border: 1px solid white;
+    margin: 30px 100px;
+    background-color: white;
+}
+.card-item{
+    padding: 15px;
+    margin-top: 0;
+}
+.h2 {
+    padding: unset;
+    margin-left: 30px;
+    margin-bottom: 1;
+}
+#a {
+    text-decoration: none;
+    color: rgb(42, 157, 235);
+    margin: 20px;
+}
+.skill-container {
+    display: flex;
+    flex-direction: row;
+}
+.skill {
+    width: 850px;
+    height: 220px;
+    border: 1px solid white;
+    margin: 30px 100px;
+    background-color: white;
+}
+.skill-item img {
+    width: 250px;
+    height: 80px;
+  
+}
+.skill-item {
+    padding: 15px;
+}
+.skill h3 {
+    padding: unset;
+    margin-left: 30px;
+    margin-bottom: 1;
+}
+.skill a {
+    text-decoration: none;
+    color: rgb(42, 157, 235);
+    margin-left: 20px;
+} 
+.ex-text{
+    height: 30px;
+    width: 719px;
+    margin-left: 30px; 
+
+}
+.ex-text h4{
+    margin: 0%;
+}
+.ex-img {
+    height: 54px;
+    width: 54px;
+    margin-left: 40px; 
+ 
+ 
+}
+.ex-container {
+    display: flex;
+    flex-direction: row;
+    
+}
+.experience {
+    width: 850px;
+    height: 220px;
+    margin-bottom: 50px;
+    background-color: white;
+    
+}
+.basic{
+     border: 1px solid white;
+    width: 850px;
+    height:500px ;
+    margin-left: 100px;
+    background-color: white;
+   
+}
+.experience h2 {
+    margin-left: 50px;
+}
+.education {
+    border:1px solid white;
+    width: 850px;
+    height: 210px;
+    margin: 30px 100px;
+    background-color: white;
+}
+.edu-container {
+    display: flex;
+    flex-direction: row;
+}
+.edu-img {
+    margin-left: 40px;
+}
+.edu-text {
+    margin-left: 30px;
+}
+.education h2 {
+    margin-left: 50px;
+}
+.bn {
+    width: 170px;
+    height: 32px;
+}
+.div{
+    display: flex;
+    flex-direction: ;
+}
+aside {
+    width: 290px;
+    height: 360px;
+    float: right;
+    border: 1px solid white;
+    margin-right: 30px;
+    position: absolute;
+    top: 140px;
+    left: 1000px;
+    background-color: white;
+}
+.outer {
+    margin-left: 20px;
+}
+.h1 {
+    font-size: 30px;
+    color: rgb(31, 159, 233);
+    padding: 0;
+}
+.below2{
+    /* display: flex;
+    flex-direction: row;
+    width: 290px;
+    height: 427px;
+    border: 1px solid; */
+}
+.below {
+    border: 1px solid white;
+    width: 290px;
+    height: 427px;
+    margin-top: 60px;
+    background-color: white;
+  
+}
+.below-container{
+     display: flex;
+    flex-direction: row;
+} 
+.below-img{
+    margin-left: 10px;
+}
+.below-text {
+    margin-left: 10px;
+}
+.below2 h3{
+    margin-left: 10px;
+    ;
+}
+.end {
+    border: 1px solid white;
+    width: 290px;
+    height: 380px;
+    margin-top: 60px;
+    background-color: white;
+}
+.end-container {
+    display: flex;
+    flex-direction: row;
+}
+.end-img {
+    margin-left: 10px;
+}
+.end h3 {
+    margin-left: 10px;
+}
+.end-text {
+    margin-left: 10px;
+}
+#h3{
+    color: rgb(15, 154, 240);
+}
+.bn {
+    background-color: rgb(11, 106, 168);
+    color: white;
+}
+.bn-active{
+    width: 174px;
+    height: 32px;
+    border-color: rgb(11, 106, 168);
+    background-color: white;
+}
+.title p{
+    font-family: sans-serif;
+}
+.flex-text p{
+    font-family: sans-serif;
+}

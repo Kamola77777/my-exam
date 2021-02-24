@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px){
+    body {
+        width: 100%;
+        background-color: blueviolet;
+    }
+}
+@media screen and (max-width: 600px){
+    nav {
+        width: 100%;
+    }
+}
